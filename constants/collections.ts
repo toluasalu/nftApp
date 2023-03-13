@@ -1,25 +1,27 @@
 const collections = [{
     id: 1,
     name:"Cyberpunk",
-    image: require("../assets/collections"),
+    image: require("../assets/nft.png"),
     price: "0.23",
     creator: "Anna",
-    creatorImage: require("../assets/creators")
+    creatorImage: require("../assets/person.jpeg")
 },
 {
     id: 2,
     name: "Cyberpunk",
-    Image: require("../assets/collections"),
+    image: require("../assets/nft.png"),
     price: "1.23",
     creator: "Lima",
-    creatorImage: require("../assets")
+    creatorImage:  require("../assets/person.jpeg")
 },
 {
     id: 3,
     name:"Cyberpunk",
-    image: require("../assets/collections"),
+    image: require("../assets/nft.png"),
     price: "0.23",
     creator: "Anna",
-    creatorImage: require("../assets/creators")
+    creatorImage:  require("../assets/person.jpeg")
 }
 ];
+
+export default collections;
